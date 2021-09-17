@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(41, 37, 37);
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    background-color: rgb(102, 202, 216) ;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.cv {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    margin: 20px;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.career {
+    display: flex;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact p {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.movies {
+    width: 50%;
+}
+
+.awards {
+    width: 50%;
+}
+
+@media (max-width: 1000px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .career {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pic {
+        margin: auto;
+    }
+
+    .info {
+        margin: 10px 40px;
+    }
+
+    
+}
